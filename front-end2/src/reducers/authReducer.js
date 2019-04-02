@@ -15,7 +15,7 @@
 function authReducer(state = null, action){
     if(action.type === "LOGIN_ACTION"){
         // do stuff
-        console.log(action.payload.data)
+        // console.log(action.payload.data)
         return action.payload.data;
     }else if(action.type === "REGISTER_ACTION"){
         return action.payload.data

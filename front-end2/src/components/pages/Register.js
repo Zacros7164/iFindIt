@@ -29,7 +29,7 @@ class Register extends Component {
     }
 
     componentWillReceiveProps(newProps) {
-        console.log(newProps)
+        // console.log(newProps)
         if (newProps.auth.message === "emailTaken") {
             this.setState({
                 showAlert: true,

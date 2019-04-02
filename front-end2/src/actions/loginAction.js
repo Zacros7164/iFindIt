@@ -6,8 +6,8 @@
 import axios from 'axios';
 
 export default (formData)=>{
-    console.log('login action ran!')
-    console.log(formData)
+    // console.log('login action ran!')
+    // console.log(formData)
     const loginPromise = axios({
         url: `${window.apiHost}/login`,
         method: 'POST',

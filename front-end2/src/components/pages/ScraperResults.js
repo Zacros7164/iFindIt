@@ -10,7 +10,7 @@ class ScraperResults extends Component {
 
 
     render() {
-        console.log(this.props.title)
+        // console.log(this.props.title)
 
         if (this.props.title === null) {
             return (
@@ -28,7 +28,7 @@ class ScraperResults extends Component {
 
             )
         } else {
-            console.log(this.props.title.results.length)
+            // console.log(this.props.title.results.length)
             let services = null
             if (this.props.title.results.length === 0) {
                 return (

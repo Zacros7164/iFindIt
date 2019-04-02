@@ -30,7 +30,7 @@ class Login extends Component {
     }
 
     componentWillReceiveProps(newProps) {
-        console.log(newProps)
+        // console.log(newProps)
         if (newProps.auth.message === "invalidUser") {
             this.setState({
                 showAlert: true,

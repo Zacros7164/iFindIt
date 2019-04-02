@@ -16,11 +16,11 @@
 
 function scrapeReducer(state = null, action) {
     if (action.type === "TITLE_SEARCH") {
-        console.log(action.payload.data)
+        // console.log(action.payload.data)
         return action.payload.data;
     } else if (action.type === "RESET_SCRAPE") {
-        console.log("scrape reducer ran")
-        console.log(action.payload)
+        // console.log("scrape reducer ran")
+        // console.log(action.payload)
         return action.payload
     } else {
         return state
